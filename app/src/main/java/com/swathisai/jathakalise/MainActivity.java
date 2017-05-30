@@ -62,6 +62,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        i5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent video = new Intent(getApplicationContext(), LiveCoverage.class);
+                startActivity(video);
+            }
+        });
+
         i6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

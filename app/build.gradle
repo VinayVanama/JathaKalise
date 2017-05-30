@@ -6,8 +6,8 @@ android {
         applicationId "com.swathisai.jathakalise"
         minSdkVersion 19
         targetSdkVersion 25
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.0.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
             manifestPlaceholders = [onesignal_app_id: "80e1b245-c851-4c7e-a2fd-1633141b3467",
                                     // Project number pulled from dashboard, local value is ignored.
