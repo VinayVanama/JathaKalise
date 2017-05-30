@@ -3,24 +3,21 @@ package com.swathisai.jathakalise;
 import android.content.Context;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
-import android.widget.TextView;
+import android.widget.EditText;
 
-/**
- * Created by CYKULTECH02 on 24-Sep-16.
- */
-public class CustomTextView extends android.support.v7.widget.AppCompatTextView {
+public class CustomEditText extends android.support.v7.widget.AppCompatEditText {
 
-    public CustomTextView(Context context, AttributeSet attrs, int defStyle) {
+    public CustomEditText(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         init();
     }
 
-    public CustomTextView(Context context, AttributeSet attrs) {
+    public CustomEditText(Context context, AttributeSet attrs) {
         super(context, attrs);
         init();
     }
 
-    public CustomTextView(Context context) {
+    public CustomEditText(Context context) {
         super(context);
         init();
     }

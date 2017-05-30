@@ -31,6 +31,7 @@ public class Utils {
         alertDialog.setMessage("Please check your network settings to access the Application");
         alertDialog.setButton("OK", new OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
+
             }
         });
         alertDialog.show();

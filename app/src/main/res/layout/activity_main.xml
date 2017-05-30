@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    xmlns:app="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:fillViewport="false"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
@@ -53,7 +52,7 @@
             android:layout_marginTop="@dimen/_3sdp"
             android:layout_marginRight="@dimen/_5sdp">
             <android.support.v7.widget.CardView
-                android:id="@+id/cdLeft"
+                android:id="@+id/cdLeft1"
                 android:layout_margin="5.0dip"
                 app:cardCornerRadius="@dimen/_1sdp"
                 android:layout_width="match_parent"
@@ -77,11 +76,11 @@
                 android:layout_weight="1">
 
                 <ImageView
-                    android:id="@+id/imageview2"
+                    android:id="@+id/livecoverage"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:scaleType="fitXY"
-                    android:background="@drawable/livecoverage"/>
+                    android:background="@drawable/watchlive"
+                    android:scaleType="fitXY" />
             </android.support.v7.widget.CardView>
         </LinearLayout>
         <LinearLayout android:orientation="horizontal"
@@ -91,17 +90,19 @@
             android:layout_marginTop="@dimen/_3sdp"
             android:layout_marginRight="@dimen/_5sdp">
             <android.support.v7.widget.CardView
-                android:id="@+id/cdLeft"
+                android:id="@+id/cdLeft3"
                 android:layout_margin="5.0dip"
                 app:cardCornerRadius="@dimen/_1sdp"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_130sdp"
                 android:scaleType="fitXY"
                 android:layout_weight="1">
+
                 <ImageView
-                    android:id="@+id/livecoverage"
+                    android:id="@+id/videoView"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
+                    android:background="@drawable/videos"
                     android:scaleType="fitXY" />
             </android.support.v7.widget.CardView>
             <android.support.v7.widget.CardView
@@ -116,6 +117,7 @@
                     android:id="@+id/blessing"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@drawable/blessus"
                     android:scaleType="fitXY" />
             </android.support.v7.widget.CardView>
         </LinearLayout>

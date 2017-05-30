@@ -3,24 +3,25 @@ package com.swathisai.jathakalise;
 import android.content.Context;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
-import android.widget.TextView;
+import android.widget.Button;
 
 /**
- * Created by CYKULTECH02 on 24-Sep-16.
+ * Created by CYKULTECH02 on 24-Nov-16.
  */
-public class CustomTextView extends android.support.v7.widget.AppCompatTextView {
 
-    public CustomTextView(Context context, AttributeSet attrs, int defStyle) {
+public class CustomButton extends android.support.v7.widget.AppCompatButton {
+
+    public CustomButton(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         init();
     }
 
-    public CustomTextView(Context context, AttributeSet attrs) {
+    public CustomButton(Context context, AttributeSet attrs) {
         super(context, attrs);
         init();
     }
 
-    public CustomTextView(Context context) {
+    public CustomButton(Context context) {
         super(context);
         init();
     }

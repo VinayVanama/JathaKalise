@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.swathisai.jathakalise.Blessing">
+    android:layout_height="match_parent">
+    
+    <com.swathisai.jathakalise.CustomEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:inputType="textCapWords"
+        android:layout_margin="@dimen/_15sdp"
+        android:drawableLeft="@drawable/ic_name"
+        android:drawablePadding="@dimen/_5sdp"
+        android:hint="Name"/>
 
-</android.support.constraint.ConstraintLayout>
+    <com.swathisai.jathakalise.CustomEditText
+        android:id="@+id/remarks"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="@drawable/shape_for_edittext"
+        android:gravity="start"
+        android:hint="Your blessings here"
+        android:inputType="textMultiLine"
+        android:padding="@dimen/_5sdp"
+        android:textSize="@dimen/_15sdp" />
+
+    <com.swathisai.jathakalise.CustomButton
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="@dimen/_16sdp"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="@dimen/_18sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp" />
+
+</LinearLayout>
