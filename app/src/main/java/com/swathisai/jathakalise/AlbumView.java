@@ -35,7 +35,6 @@ public class AlbumView extends AppCompatActivity {
     ListView listImages;
     ProgressDialog pd;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
