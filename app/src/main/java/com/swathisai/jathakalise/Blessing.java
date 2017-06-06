@@ -31,7 +31,7 @@ import java.util.Map;
 public class Blessing extends AppCompatActivity {
 
     EditText name,bless;
-    Button submit;
+    Button submit,ok,pause,play;
     ProgressDialog progressDialog;
 
     @Override
